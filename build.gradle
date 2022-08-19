@@ -1,9 +1,5 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
-    /*Project Version Information*/
-    //apply from: 'appInfo.gradle'
-    /*Server Configuration*/
-    //apply from: 'serverConfig.gradle'
 
     repositories {
         google()

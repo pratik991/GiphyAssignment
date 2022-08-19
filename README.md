@@ -23,5 +23,4 @@
 💎 **Architecture**
 -------------------
 **MVVM** based + **Repository pattern**
-![final-architecture](https://user-images.githubusercontent.com/40010002/108877306-72bf7080-7642-11eb-9048-c6536514052f.png)
 
