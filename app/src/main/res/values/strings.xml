@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Giphy Assignment</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="trending_fragment_label">Trending Fragment</string>
+    <string name="favorites_fragment_label">Favorites Fragment</string>
+
+    <string name="title_dashboard">Dashboard</string>
+    <string name="tab_trending">Trending</string>
+    <string name="tab_favorites">Favorites</string>
+    <string name="desc_giphy">GIFs</string>
+    <string name="hint_search_gif">Search GIFs</string>
+    <string name="button_retry">Retry</string>
+    <string name="no_records_found">No Records Found!!</string>
+    <string name="label_error">Something went wrong, please try again</string>
+</resources>

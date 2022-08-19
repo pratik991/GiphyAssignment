@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="gifImage"
+            type="com.example.giphyassignment.data.db.entity.FavoriteItem" />
+
+        <variable
+            name="favourite"
+            type="com.example.giphyassignment.ui.trending.adapters.GiphyViewHolder.FavouritesClickListener" />
+    </data>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_small"
+        app:cardCornerRadius="@dimen/card_corner_radius"
+        app:cardElevation="@dimen/card_elevation">
+
+        <ImageView
+            android:id="@+id/ivGif"
+            loadImage="@{gifImage.images.fixed_height.url}"
+            android:layout_width="@dimen/giphy_image_width_large"
+            android:layout_height="@dimen/giphy_image_height_large"
+            android:contentDescription="@string/desc_giphy"
+            android:scaleType="centerCrop"
+            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/btnFavourites"
+            favouriteMarker="@{gifImage.favorite}"
+            android:layout_width="@dimen/fav_button_width_large"
+            android:layout_height="@dimen/fav_button_height_large"
+            android:layout_gravity="end"
+            android:onClick="@{(view) -> favourite.onToggle(view, gifImage)}"
+            app:lottie_autoPlay="false"
+            app:lottie_loop="false"
+            app:lottie_rawRes="@raw/favourites" />
+    </com.google.android.material.card.MaterialCardView>
+</layout>

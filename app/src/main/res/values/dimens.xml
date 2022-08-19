@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_normal">16dp</dimen>
+
+    <dimen name="giphy_image_width_small">100dp</dimen>
+    <dimen name="giphy_image_height_small">100dp</dimen>
+    <dimen name="giphy_image_width_large">180dp</dimen>
+    <dimen name="giphy_image_height_large">180dp</dimen>
+
+    <dimen name="fav_button_width_small">30dp</dimen>
+    <dimen name="fav_button_height_small">30dp</dimen>
+    <dimen name="fav_button_width_large">50dp</dimen>
+    <dimen name="fav_button_height_large">50dp</dimen>
+
+    <dimen name="card_elevation">6dp</dimen>
+    <dimen name="card_corner_radius">12dp</dimen>
+
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_normal">16sp</dimen>
+</resources>

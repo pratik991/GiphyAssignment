@@ -1,0 +1,27 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GiphyAssignment" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimaryDark">@color/gray_50_a600</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="colorAccent">@color/purple_500</item>
+        <item name="colorSurface">@color/green_900</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:colorBackground">@color/purple_500</item>
+    </style>
+
+    <style name="Theme.GiphyAssignment" parent="Base.Theme.GiphyAssignment" />
+
+    <style name="Theme.GiphyAssignment.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.GiphyAssignment.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+</resources>
